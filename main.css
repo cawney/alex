@@ -1,0 +1,142 @@
+/******************************************************************************
+GENERAL
+******************************************************************************/
+
+
+html {
+  background: azure;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 480px;
+}
+
+
+
+/******************************************************************************
+FLEX
+******************************************************************************/
+
+
+.flex-container {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: -webkit-space-around;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+}
+
+
+
+/******************************************************************************
+BANNER
+******************************************************************************/
+
+
+.banner {
+  
+  /* Size and Postion */
+  width: 100%;
+  height: 70px;
+  margin: -16px auto;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;  
+  /* border radius and shadow */
+    
+  border-radius: 0 0 10px 10px;
+  
+  /* font and color */
+  background: #777;
+  text-align: center;
+  color: azure;
+  
+  
+  /* Box Shadow*/
+  -webkit-box-shadow: 0px 5px 5px darkslategrey;
+}
+
+.banner p {
+  padding: 12px;
+}
+.botton {
+  padding: 10px 44px;
+  background: tomato;
+  border-radius: 5px;
+  color: steelblue;
+}
+
+
+
+/******************************************************************************
+LOGO
+******************************************************************************/
+
+
+.logo {
+  height: 30px;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+
+/******************************************************************************
+NAVIGATION
+******************************************************************************/
+
+
+nav {
+  margin-top: 30px;
+  background: steelblue;
+}
+
+nav li {
+  padding: 5px 0px;
+}
+nav a {
+  color: azure;
+}
+
+
+
+/******************************************************************************
+SIDE WRAP
+******************************************************************************/
+
+
+.side-wrap {
+  position: relative;
+  float: left;
+  width: 270px;
+}
+
+
+.main-content {
+/*  float: right;*/
+}
+
+
+
+/******************************************************************************
+FOOTER
+******************************************************************************/
+
+
+footer {
+  clear: both;
+}
+
+
+
+
